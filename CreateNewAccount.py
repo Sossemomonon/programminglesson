@@ -15,8 +15,8 @@ while True:
     bankMedianPr = statistics.median(bank)
 
 
-    adAmount = (int(input("Create New Account with Amount: ")))
-    bank.append(adAmount)
+    addAmount = (int(input("Create New Account with Amount: ")))
+    bank.append(addAmount)
     bankSumAA = sum(bank)
     bankMeanAA = statistics.mean(bank)
     bankMedianAA = statistics.median(bank)
